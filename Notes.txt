@@ -1,0 +1,17 @@
+September 12, 2014
+	makefiles-ansi compatible is overly restrictive and we dont have to
+worry about it
+	-03 flag has to do with optimization and we dont need to worry about
+it yet either
+	-first defining variables
+
+3or4 ways to refer to a makefile
+	1) GNUMakefile
+	2) makefile
+	3) Makefile (use this by default, it is the standard)
+	4) Anything you want
+
+When it starts (unless told otherwise) it will execute the first macro it
+comes across. But before that it satsfies dependencies, one after the other. 
+
+Then (YOU NEED A TAB CHARACTER NOT JUST WHITE SPACES)
